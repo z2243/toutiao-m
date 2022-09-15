@@ -80,7 +80,7 @@ export default {
     async onSubmit () {
       const user = this.user
 
-      // 加载提示
+      // 加载提示 展示登录中的loading
       this.$toast.loading({
         message: '加载中...',
         forbidClick: true,

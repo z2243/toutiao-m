@@ -1,6 +1,6 @@
 <template>
     <div class="article-item">
-        <van-cell class="article-cell-item" size="large">
+        <van-cell class="article-cell-item" size="large" :to="`/article/${article.art_id}`">
             <div slot="title" class="title van-multi-ellipsis--l2">{{ article.title }}</div>
             <div slot="label">
                 <div slot="default" v-if="article.cover.type === 3" class="triplePic">
